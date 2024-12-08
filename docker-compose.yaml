@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    image: alicodes02/Mlops-Project-backend
+    image: junaidjamshid/mlops-project-backend
     build: 
       context: ./backend
       dockerfile: Dockerfile
@@ -14,7 +14,7 @@ services:
       - postgres
 
   frontend:
-    image: alicodes02/Mlops-Project-frontend
+    image: junaidjamshid/mlops-project-frontend
     build:
       context: ./frontend
       dockerfile: Dockerfile
