@@ -1,0 +1,30 @@
+/* App.css */
+
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff6f61, #ffcc00); /* Gradient background */
+}
+
+.content-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.error-message {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 14px;
+  background-color: #ffcccc;
+  border: 1px solid #ff4d4d;
+  color: #ff3333;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .content-container {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,82 @@
+/* NavBar.css */
+.navbar {
+    background: linear-gradient(90deg, #ffbb33, #ffcc00); /* Yellow gradient */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cloud-icon {
+    height: 32px;
+    width: 32px;
+    color: #f59e0b; /* A darker yellow to match the theme */
+  }
+  
+  .navbar-logo {
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .navbar-link {
+    color: #4b5563;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #1f2937;
+  }
+  
+  .btn-logout,
+  .btn-register {
+    background: linear-gradient(45deg, #ffcc00, #ffbb33); /* Yellow gradient for buttons */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-logout:hover,
+  .btn-register:hover {
+    background: linear-gradient(45deg, #f59e0b, #fbbf24); /* Darker gradient for hover */
+  }
+  
+  .btn-register {
+    background: linear-gradient(45deg, #ffcc00, #ffbb33);
+  }
+  
+  .btn-register:hover {
+    background: linear-gradient(45deg, #f59e0b, #fbbf24);
+  }
+  
